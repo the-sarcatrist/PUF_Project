@@ -1,0 +1,85 @@
+(DELAYFILE 
+(SDFVERSION "3.0" )
+(DESIGN "ring_oscillator_wrapper")
+(DATE "Sat Sep 23 12:26:34 2023")
+(VENDOR "XILINX")
+(PROGRAM "Vivado")
+(VERSION "2021.1")
+(DIVIDER /)
+(TIMESCALE 1ps)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE Op1_0_IBUF\[0\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (838.1:971.7:971.7) (838.1:971.7:971.7))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE Res_0_OBUF\[0\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2477.2:2633.5:2633.5) (2477.2:2633.5:2633.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE ring_oscillator_i/util_vector_logic_0/Res\[0\]_INST_0)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE ring_oscillator_i/util_vector_logic_2/Res\[0\]_INST_0)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE ring_oscillator_i/util_vector_logic_3/Res\[0\]_INST_0)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE ring_oscillator_i/util_vector_logic_4/Res\[0\]_INST_0)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+    (CELLTYPE "ring_oscillator_wrapper")
+    (INSTANCE )
+    (DELAY
+      (ABSOLUTE
+      (INTERCONNECT Op1_0_IBUF\[0\]_inst/O ring_oscillator_i/util_vector_logic_0/Res\[0\]_INST_0/I0 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT ring_oscillator_i/util_vector_logic_0/Res\[0\]_INST_0/O ring_oscillator_i/util_vector_logic_3/Res\[0\]_INST_0/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT ring_oscillator_i/util_vector_logic_2/Res\[0\]_INST_0/O Res_0_OBUF\[0\]_inst/I (760.7:800.7:800.7) (760.7:800.7:800.7))
+      (INTERCONNECT ring_oscillator_i/util_vector_logic_2/Res\[0\]_INST_0/O ring_oscillator_i/util_vector_logic_0/Res\[0\]_INST_0/I1 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT ring_oscillator_i/util_vector_logic_3/Res\[0\]_INST_0/O ring_oscillator_i/util_vector_logic_4/Res\[0\]_INST_0/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT ring_oscillator_i/util_vector_logic_4/Res\[0\]_INST_0/O ring_oscillator_i/util_vector_logic_2/Res\[0\]_INST_0/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      )
+    )
+)
+)

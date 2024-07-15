@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.ip_user_files/bd/final_assembly/ip/final_assembly_c_counter_binary_0_0/sim/final_assembly_c_counter_binary_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'final_assembly_c_counter_binary_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.ip_user_files/bd/final_assembly/ip/final_assembly_c_counter_binary_1_0/sim/final_assembly_c_counter_binary_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'final_assembly_c_counter_binary_1_0'

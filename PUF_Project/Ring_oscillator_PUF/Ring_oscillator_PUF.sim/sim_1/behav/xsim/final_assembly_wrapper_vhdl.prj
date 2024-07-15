@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Ring_oscillator_PUF.ip_user_files/bd/final_assembly/ip/final_assembly_c_counter_binary_0_0/sim/final_assembly_c_counter_binary_0_0.vhd" \
+"../../../../Ring_oscillator_PUF.ip_user_files/bd/final_assembly/ip/final_assembly_c_counter_binary_1_0/sim/final_assembly_c_counter_binary_1_0.vhd" \
+
+# Do not sort compile order
+nosort

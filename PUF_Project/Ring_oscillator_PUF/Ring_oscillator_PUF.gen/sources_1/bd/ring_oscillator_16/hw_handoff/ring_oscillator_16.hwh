@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Oct  3 16:14:06 2023" VIVADOVERSION="2021.1">
+
+  <SYSTEMINFO ARCH="zynq" BOARD="digilentinc.com:zybo-z7-20:part0:1.0" DEVICE="7z020" NAME="ring_oscillator_16" PACKAGE="clg400" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" LEFT="0" NAME="IP1_0" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_IP1_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ring_oscillator_15" PORT="IP1"/>
+        <CONNECTION INSTANCE="ring_oscillator_11" PORT="IP1"/>
+        <CONNECTION INSTANCE="ring_oscillator_12" PORT="IP1"/>
+        <CONNECTION INSTANCE="ring_oscillator_13" PORT="IP1"/>
+        <CONNECTION INSTANCE="ring_oscillator_14" PORT="IP1"/>
+        <CONNECTION INSTANCE="ring_oscillator_0" PORT="IP1"/>
+        <CONNECTION INSTANCE="ring_oscillator_1" PORT="IP1"/>
+        <CONNECTION INSTANCE="ring_oscillator_2" PORT="IP1"/>
+        <CONNECTION INSTANCE="ring_oscillator_3" PORT="IP1"/>
+        <CONNECTION INSTANCE="ring_oscillator_4" PORT="IP1"/>
+        <CONNECTION INSTANCE="ring_oscillator_5" PORT="IP1"/>
+        <CONNECTION INSTANCE="ring_oscillator_6" PORT="IP1"/>
+        <CONNECTION INSTANCE="ring_oscillator_7" PORT="IP1"/>
+        <CONNECTION INSTANCE="ring_oscillator_8" PORT="IP1"/>
+        <CONNECTION INSTANCE="ring_oscillator_9" PORT="IP1"/>
+        <CONNECTION INSTANCE="ring_oscillator_10" PORT="IP1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="OP1_0" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_0_OP1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ring_oscillator_0" PORT="OP1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="OP1_1" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_1_OP1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ring_oscillator_1" PORT="OP1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="OP1_2" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_2_OP1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ring_oscillator_2" PORT="OP1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="OP1_3" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_3_OP1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ring_oscillator_3" PORT="OP1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="OP1_4" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_4_OP1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ring_oscillator_4" PORT="OP1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="OP1_5" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_5_OP1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ring_oscillator_5" PORT="OP1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="OP1_6" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_6_OP1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ring_oscillator_6" PORT="OP1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="OP1_7" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_7_OP1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ring_oscillator_7" PORT="OP1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="OP1_8" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_8_OP1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ring_oscillator_8" PORT="OP1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="OP1_9" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_9_OP1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ring_oscillator_9" PORT="OP1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="OP1_10" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_10_OP1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ring_oscillator_10" PORT="OP1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="OP1_11" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_11_OP1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ring_oscillator_11" PORT="OP1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="OP1_12" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_12_OP1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ring_oscillator_12" PORT="OP1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="OP1_13" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_13_OP1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ring_oscillator_13" PORT="OP1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="OP1_14" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_14_OP1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ring_oscillator_14" PORT="OP1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="OP1_15" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_15_OP1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ring_oscillator_15" PORT="OP1"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE BD="ring_oscillator_inst_2" BDTYPE="BLOCK_CONTAINER" DRIVERMODE="SUBCORE" FULLNAME="/ring_oscillator_0" INSTANCE="ring_oscillator_0" IS_ENABLE="1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="ACTIVE_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LOCK_PROPAGATE" VALUE="0"/>
+        <PARAMETER NAME="ACTIVE_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="ENABLE_DFX" VALUE="0"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="OP1" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_0_OP1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="OP1_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="IP1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_IP1_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="IP1_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE BD="ring_oscillator_inst_3" BDTYPE="BLOCK_CONTAINER" DRIVERMODE="SUBCORE" FULLNAME="/ring_oscillator_1" INSTANCE="ring_oscillator_1" IS_ENABLE="1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="ACTIVE_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LOCK_PROPAGATE" VALUE="0"/>
+        <PARAMETER NAME="ACTIVE_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="ENABLE_DFX" VALUE="0"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="OP1" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_1_OP1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="OP1_1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="IP1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_IP1_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="IP1_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE BD="ring_oscillator_inst_12" BDTYPE="BLOCK_CONTAINER" DRIVERMODE="SUBCORE" FULLNAME="/ring_oscillator_10" INSTANCE="ring_oscillator_10" IS_ENABLE="1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="ACTIVE_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LOCK_PROPAGATE" VALUE="0"/>
+        <PARAMETER NAME="ACTIVE_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="ENABLE_DFX" VALUE="0"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="OP1" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_10_OP1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="OP1_10"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="IP1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_IP1_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="IP1_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE BD="ring_oscillator_inst_13" BDTYPE="BLOCK_CONTAINER" DRIVERMODE="SUBCORE" FULLNAME="/ring_oscillator_11" INSTANCE="ring_oscillator_11" IS_ENABLE="1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="ACTIVE_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LOCK_PROPAGATE" VALUE="0"/>
+        <PARAMETER NAME="ACTIVE_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="ENABLE_DFX" VALUE="0"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="OP1" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_11_OP1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="OP1_11"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="IP1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_IP1_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="IP1_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE BD="ring_oscillator_inst_14" BDTYPE="BLOCK_CONTAINER" DRIVERMODE="SUBCORE" FULLNAME="/ring_oscillator_12" INSTANCE="ring_oscillator_12" IS_ENABLE="1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="ACTIVE_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LOCK_PROPAGATE" VALUE="0"/>
+        <PARAMETER NAME="ACTIVE_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="ENABLE_DFX" VALUE="0"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="OP1" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_12_OP1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="OP1_12"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="IP1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_IP1_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="IP1_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE BD="ring_oscillator_inst_15" BDTYPE="BLOCK_CONTAINER" DRIVERMODE="SUBCORE" FULLNAME="/ring_oscillator_13" INSTANCE="ring_oscillator_13" IS_ENABLE="1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="ACTIVE_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LOCK_PROPAGATE" VALUE="0"/>
+        <PARAMETER NAME="ACTIVE_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="ENABLE_DFX" VALUE="0"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="OP1" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_13_OP1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="OP1_13"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="IP1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_IP1_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="IP1_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE BD="ring_oscillator_inst_16" BDTYPE="BLOCK_CONTAINER" DRIVERMODE="SUBCORE" FULLNAME="/ring_oscillator_14" INSTANCE="ring_oscillator_14" IS_ENABLE="1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="ACTIVE_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LOCK_PROPAGATE" VALUE="0"/>
+        <PARAMETER NAME="ACTIVE_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="ENABLE_DFX" VALUE="0"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="OP1" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_14_OP1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="OP1_14"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="IP1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_IP1_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="IP1_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE BD="ring_oscillator_inst_17" BDTYPE="BLOCK_CONTAINER" DRIVERMODE="SUBCORE" FULLNAME="/ring_oscillator_15" INSTANCE="ring_oscillator_15" IS_ENABLE="1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="ACTIVE_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LOCK_PROPAGATE" VALUE="0"/>
+        <PARAMETER NAME="ACTIVE_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="ENABLE_DFX" VALUE="0"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="OP1" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_15_OP1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="OP1_15"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="IP1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_IP1_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="IP1_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE BD="ring_oscillator_inst_4" BDTYPE="BLOCK_CONTAINER" DRIVERMODE="SUBCORE" FULLNAME="/ring_oscillator_2" INSTANCE="ring_oscillator_2" IS_ENABLE="1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="ACTIVE_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LOCK_PROPAGATE" VALUE="0"/>
+        <PARAMETER NAME="ACTIVE_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="ENABLE_DFX" VALUE="0"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="OP1" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_2_OP1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="OP1_2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="IP1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_IP1_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="IP1_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE BD="ring_oscillator_inst_5" BDTYPE="BLOCK_CONTAINER" DRIVERMODE="SUBCORE" FULLNAME="/ring_oscillator_3" INSTANCE="ring_oscillator_3" IS_ENABLE="1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="ACTIVE_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LOCK_PROPAGATE" VALUE="0"/>
+        <PARAMETER NAME="ACTIVE_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="ENABLE_DFX" VALUE="0"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="OP1" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_3_OP1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="OP1_3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="IP1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_IP1_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="IP1_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE BD="ring_oscillator_inst_6" BDTYPE="BLOCK_CONTAINER" DRIVERMODE="SUBCORE" FULLNAME="/ring_oscillator_4" INSTANCE="ring_oscillator_4" IS_ENABLE="1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="ACTIVE_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LOCK_PROPAGATE" VALUE="0"/>
+        <PARAMETER NAME="ACTIVE_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="ENABLE_DFX" VALUE="0"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="OP1" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_4_OP1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="OP1_4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="IP1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_IP1_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="IP1_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE BD="ring_oscillator_inst_7" BDTYPE="BLOCK_CONTAINER" DRIVERMODE="SUBCORE" FULLNAME="/ring_oscillator_5" INSTANCE="ring_oscillator_5" IS_ENABLE="1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="ACTIVE_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LOCK_PROPAGATE" VALUE="0"/>
+        <PARAMETER NAME="ACTIVE_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="ENABLE_DFX" VALUE="0"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="OP1" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_5_OP1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="OP1_5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="IP1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_IP1_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="IP1_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE BD="ring_oscillator_inst_8" BDTYPE="BLOCK_CONTAINER" DRIVERMODE="SUBCORE" FULLNAME="/ring_oscillator_6" INSTANCE="ring_oscillator_6" IS_ENABLE="1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="ACTIVE_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LOCK_PROPAGATE" VALUE="0"/>
+        <PARAMETER NAME="ACTIVE_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="ENABLE_DFX" VALUE="0"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="OP1" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_6_OP1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="OP1_6"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="IP1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_IP1_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="IP1_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE BD="ring_oscillator_inst_9" BDTYPE="BLOCK_CONTAINER" DRIVERMODE="SUBCORE" FULLNAME="/ring_oscillator_7" INSTANCE="ring_oscillator_7" IS_ENABLE="1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="ACTIVE_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LOCK_PROPAGATE" VALUE="0"/>
+        <PARAMETER NAME="ACTIVE_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="ENABLE_DFX" VALUE="0"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="OP1" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_7_OP1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="OP1_7"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="IP1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_IP1_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="IP1_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE BD="ring_oscillator_inst_10" BDTYPE="BLOCK_CONTAINER" DRIVERMODE="SUBCORE" FULLNAME="/ring_oscillator_8" INSTANCE="ring_oscillator_8" IS_ENABLE="1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="ACTIVE_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LOCK_PROPAGATE" VALUE="0"/>
+        <PARAMETER NAME="ACTIVE_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="ENABLE_DFX" VALUE="0"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="OP1" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_8_OP1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="OP1_8"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="IP1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_IP1_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="IP1_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE BD="ring_oscillator_inst_11" BDTYPE="BLOCK_CONTAINER" DRIVERMODE="SUBCORE" FULLNAME="/ring_oscillator_9" INSTANCE="ring_oscillator_9" IS_ENABLE="1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="ACTIVE_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LOCK_PROPAGATE" VALUE="0"/>
+        <PARAMETER NAME="ACTIVE_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SYNTH_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="LIST_SIM_BD" VALUE="ring_oscillator.bd"/>
+        <PARAMETER NAME="ENABLE_DFX" VALUE="0"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="OP1" RIGHT="0" SIGIS="undef" SIGNAME="ring_oscillator_9_OP1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="OP1_9"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="IP1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_IP1_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="IP1_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

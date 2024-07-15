@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Oct  3 16:14:00 2023" VIVADOVERSION="2021.1">
+
+  <SYSTEMINFO ARCH="zynq" BOARD="digilentinc.com:zybo-z7-20:part0:1.0" DEVICE="7z020" NAME="ring_oscillator_inst_11" PACKAGE="clg400" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="O" LEFT="0" NAME="OP1" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_2_Res">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="util_vector_logic_2" PORT="Res"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="0" NAME="IP1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_IP1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="util_vector_logic_4" PORT="Op1"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/util_vector_logic_2" HWVERSION="2.0" INSTANCE="util_vector_logic_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="util_vector_logic" VLNV="xilinx.com:ip:util_vector_logic:2.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="C_OPERATION" VALUE="not"/>
+        <PARAMETER NAME="C_SIZE" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="ring_oscillator_inst_11_util_vector_logic_2_0"/>
+        <PARAMETER NAME="LOGO_FILE" VALUE="data/sym_notgate.png"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="0" NAME="Op1" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_21_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="util_vector_logic_21" PORT="Res"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="Res" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_2_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="OP1"/>
+            <CONNECTION INSTANCE="util_vector_logic_4" PORT="Op2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/util_vector_logic_21" HWVERSION="2.0" INSTANCE="util_vector_logic_21" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="util_vector_logic" VLNV="xilinx.com:ip:util_vector_logic:2.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="C_OPERATION" VALUE="not"/>
+        <PARAMETER NAME="C_SIZE" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="ring_oscillator_inst_11_util_vector_logic_21_0"/>
+        <PARAMETER NAME="LOGO_FILE" VALUE="data/sym_notgate.png"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="0" NAME="Op1" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_22_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="util_vector_logic_22" PORT="Res"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="Res" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_21_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="util_vector_logic_2" PORT="Op1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/util_vector_logic_22" HWVERSION="2.0" INSTANCE="util_vector_logic_22" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="util_vector_logic" VLNV="xilinx.com:ip:util_vector_logic:2.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="C_OPERATION" VALUE="not"/>
+        <PARAMETER NAME="C_SIZE" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="ring_oscillator_inst_11_util_vector_logic_22_0"/>
+        <PARAMETER NAME="LOGO_FILE" VALUE="data/sym_notgate.png"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="0" NAME="Op1" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_23_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="util_vector_logic_23" PORT="Res"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="Res" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_22_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="util_vector_logic_21" PORT="Op1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/util_vector_logic_23" HWVERSION="2.0" INSTANCE="util_vector_logic_23" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="util_vector_logic" VLNV="xilinx.com:ip:util_vector_logic:2.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="C_OPERATION" VALUE="not"/>
+        <PARAMETER NAME="C_SIZE" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="ring_oscillator_inst_11_util_vector_logic_23_0"/>
+        <PARAMETER NAME="LOGO_FILE" VALUE="data/sym_notgate.png"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="0" NAME="Op1" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_34_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="util_vector_logic_34" PORT="Res"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="Res" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_23_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="util_vector_logic_22" PORT="Op1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/util_vector_logic_34" HWVERSION="2.0" INSTANCE="util_vector_logic_34" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="util_vector_logic" VLNV="xilinx.com:ip:util_vector_logic:2.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="C_OPERATION" VALUE="not"/>
+        <PARAMETER NAME="C_SIZE" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="ring_oscillator_inst_11_util_vector_logic_34_0"/>
+        <PARAMETER NAME="LOGO_FILE" VALUE="data/sym_notgate.png"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="0" NAME="Op1" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_4_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="util_vector_logic_4" PORT="Res"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="Res" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_34_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="util_vector_logic_23" PORT="Op1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/util_vector_logic_4" HWVERSION="2.0" INSTANCE="util_vector_logic_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="util_vector_logic" VLNV="xilinx.com:ip:util_vector_logic:2.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="C_OPERATION" VALUE="and"/>
+        <PARAMETER NAME="C_SIZE" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="ring_oscillator_inst_11_util_vector_logic_4_0"/>
+        <PARAMETER NAME="LOGO_FILE" VALUE="data/sym_andgate.png"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="0" NAME="Op1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_IP1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="IP1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="Op2" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_2_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="util_vector_logic_2" PORT="Res"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="Res" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_4_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="util_vector_logic_34" PORT="Op1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

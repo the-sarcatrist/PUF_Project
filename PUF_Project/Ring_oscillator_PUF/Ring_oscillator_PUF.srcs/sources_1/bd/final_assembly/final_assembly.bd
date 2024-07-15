@@ -1,0 +1,792 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xBB67977A0AB57C0D",
+      "device": "xc7z020clg400-1",
+      "gen_directory": "../../../../Ring_oscillator_PUF.gen/sources_1/bd/final_assembly",
+      "name": "final_assembly",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2021.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "xlconcat_0": "",
+      "xlconcat_1": "",
+      "c_counter_binary_0": "",
+      "c_counter_binary_1": "",
+      "xlslice_LSB": "",
+      "xlslice_MSB": "",
+      "multiplexer_16to1_0": "",
+      "multiplexer_16to1_1": "",
+      "comparator_0": "",
+      "Accumulator_0": "",
+      "xlconstant_0": "",
+      "ring_oscillator_16_w_0": "",
+      "ring_oscillator_16_w_1": ""
+    },
+    "ports": {
+      "Enable": {
+        "direction": "I",
+        "left": "0",
+        "right": "0"
+      },
+      "Din_Challenge_0": {
+        "direction": "I",
+        "left": "7",
+        "right": "0"
+      },
+      "out_result_0": {
+        "direction": "O"
+      },
+      "inp_clock_0": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "final_assembly_inp_clock_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "output_final_0": {
+        "direction": "O"
+      },
+      "res_0": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "xlconcat_0": {
+        "vlnv": "xilinx.com:ip:xlconcat:2.1",
+        "xci_name": "final_assembly_xlconcat_0_0",
+        "xci_path": "ip\\final_assembly_xlconcat_0_0\\final_assembly_xlconcat_0_0.xci",
+        "inst_hier_path": "xlconcat_0",
+        "parameters": {
+          "NUM_PORTS": {
+            "value": "16"
+          }
+        }
+      },
+      "xlconcat_1": {
+        "vlnv": "xilinx.com:ip:xlconcat:2.1",
+        "xci_name": "final_assembly_xlconcat_1_0",
+        "xci_path": "ip\\final_assembly_xlconcat_1_0\\final_assembly_xlconcat_1_0.xci",
+        "inst_hier_path": "xlconcat_1",
+        "parameters": {
+          "NUM_PORTS": {
+            "value": "16"
+          }
+        }
+      },
+      "c_counter_binary_0": {
+        "vlnv": "xilinx.com:ip:c_counter_binary:12.0",
+        "xci_name": "final_assembly_c_counter_binary_0_0",
+        "xci_path": "ip\\final_assembly_c_counter_binary_0_0\\final_assembly_c_counter_binary_0_0.xci",
+        "inst_hier_path": "c_counter_binary_0",
+        "parameters": {
+          "CE": {
+            "value": "false"
+          },
+          "Output_Width": {
+            "value": "12"
+          }
+        }
+      },
+      "c_counter_binary_1": {
+        "vlnv": "xilinx.com:ip:c_counter_binary:12.0",
+        "xci_name": "final_assembly_c_counter_binary_1_0",
+        "xci_path": "ip\\final_assembly_c_counter_binary_1_0\\final_assembly_c_counter_binary_1_0.xci",
+        "inst_hier_path": "c_counter_binary_1",
+        "parameters": {
+          "Output_Width": {
+            "value": "12"
+          }
+        }
+      },
+      "xlslice_LSB": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "final_assembly_xlslice_0_0",
+        "xci_path": "ip\\final_assembly_xlslice_0_0\\final_assembly_xlslice_0_0.xci",
+        "inst_hier_path": "xlslice_LSB",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "3"
+          },
+          "DIN_TO": {
+            "value": "0"
+          },
+          "DIN_WIDTH": {
+            "value": "8"
+          },
+          "DOUT_WIDTH": {
+            "value": "4"
+          }
+        }
+      },
+      "xlslice_MSB": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "final_assembly_xlslice_1_0",
+        "xci_path": "ip\\final_assembly_xlslice_1_0\\final_assembly_xlslice_1_0.xci",
+        "inst_hier_path": "xlslice_MSB",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "7"
+          },
+          "DIN_TO": {
+            "value": "4"
+          },
+          "DIN_WIDTH": {
+            "value": "8"
+          },
+          "DOUT_WIDTH": {
+            "value": "4"
+          }
+        }
+      },
+      "multiplexer_16to1_0": {
+        "vlnv": "xilinx.com:module_ref:multiplexer_16to1:1.0",
+        "xci_name": "final_assembly_multiplexer_16to1_0_0",
+        "xci_path": "ip\\final_assembly_multiplexer_16to1_0_0\\final_assembly_multiplexer_16to1_0_0.xci",
+        "inst_hier_path": "multiplexer_16to1_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "multiplexer_16to1",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "inp": {
+            "direction": "I",
+            "left": "15",
+            "right": "0",
+            "parameters": {
+              "PortWidth": {
+                "value": "16",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "sel": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "o": {
+            "direction": "O"
+          }
+        }
+      },
+      "multiplexer_16to1_1": {
+        "vlnv": "xilinx.com:module_ref:multiplexer_16to1:1.0",
+        "xci_name": "final_assembly_multiplexer_16to1_1_0",
+        "xci_path": "ip\\final_assembly_multiplexer_16to1_1_0\\final_assembly_multiplexer_16to1_1_0.xci",
+        "inst_hier_path": "multiplexer_16to1_1",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "multiplexer_16to1",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "inp": {
+            "direction": "I",
+            "left": "15",
+            "right": "0",
+            "parameters": {
+              "PortWidth": {
+                "value": "16",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "sel": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "o": {
+            "direction": "O"
+          }
+        }
+      },
+      "comparator_0": {
+        "vlnv": "xilinx.com:module_ref:comparator:1.0",
+        "xci_name": "final_assembly_comparator_0_0",
+        "xci_path": "ip\\final_assembly_comparator_0_0\\final_assembly_comparator_0_0.xci",
+        "inst_hier_path": "comparator_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "comparator",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "a": {
+            "direction": "I",
+            "left": "11",
+            "right": "0",
+            "parameters": {
+              "LAYERED_METADATA": {
+                "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value data} bitwidth {attribs {resolve_type generated dependency bitwidth format long minimum {} maximum {}} value 12} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} integer {signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value false}}}} DATA_WIDTH 12}",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "b": {
+            "direction": "I",
+            "left": "11",
+            "right": "0",
+            "parameters": {
+              "LAYERED_METADATA": {
+                "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value data} bitwidth {attribs {resolve_type generated dependency bitwidth format long minimum {} maximum {}} value 12} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} integer {signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value false}}}} DATA_WIDTH 12}",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "res": {
+            "direction": "O"
+          }
+        }
+      },
+      "Accumulator_0": {
+        "vlnv": "xilinx.com:module_ref:Accumulator:1.0",
+        "xci_name": "final_assembly_Accumulator_0_0",
+        "xci_path": "ip\\final_assembly_Accumulator_0_0\\final_assembly_Accumulator_0_0.xci",
+        "inst_hier_path": "Accumulator_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Accumulator",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "inp_signal": {
+            "direction": "I"
+          },
+          "inp_clock": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "CLK_DOMAIN": {
+                "value": "final_assembly_inp_clock_0",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "out_result": {
+            "direction": "O"
+          },
+          "output_final": {
+            "direction": "O"
+          }
+        }
+      },
+      "xlconstant_0": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "final_assembly_xlconstant_0_0",
+        "xci_path": "ip\\final_assembly_xlconstant_0_0\\final_assembly_xlconstant_0_0.xci",
+        "inst_hier_path": "xlconstant_0",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0"
+          }
+        }
+      },
+      "ring_oscillator_16_w_0": {
+        "vlnv": "xilinx.com:module_ref:ring_oscillator_16_wrapper:1.0",
+        "xci_name": "final_assembly_ring_oscillator_16_w_0_0",
+        "xci_path": "ip\\final_assembly_ring_oscillator_16_w_0_0\\final_assembly_ring_oscillator_16_w_0_0.xci",
+        "inst_hier_path": "ring_oscillator_16_w_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "ring_oscillator_16_wrapper",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "IP1_0": {
+            "direction": "I",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_0": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_1": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_10": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_11": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_12": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_13": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_14": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_15": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_2": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_3": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_4": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_5": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_6": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_7": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_8": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_9": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          }
+        }
+      },
+      "ring_oscillator_16_w_1": {
+        "vlnv": "xilinx.com:module_ref:ring_oscillator_16_wrapper:1.0",
+        "xci_name": "final_assembly_ring_oscillator_16_w_1_0",
+        "xci_path": "ip\\final_assembly_ring_oscillator_16_w_1_0\\final_assembly_ring_oscillator_16_w_1_0.xci",
+        "inst_hier_path": "ring_oscillator_16_w_1",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "ring_oscillator_16_wrapper",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "IP1_0": {
+            "direction": "I",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_0": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_1": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_10": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_11": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_12": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_13": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_14": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_15": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_2": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_3": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_4": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_5": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_6": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_7": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_8": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "OP1_9": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "Accumulator_0_out_result": {
+        "ports": [
+          "Accumulator_0/out_result",
+          "out_result_0"
+        ]
+      },
+      "Accumulator_0_output_final": {
+        "ports": [
+          "Accumulator_0/output_final",
+          "output_final_0"
+        ]
+      },
+      "Din_0_1": {
+        "ports": [
+          "Din_Challenge_0",
+          "xlslice_MSB/Din",
+          "xlslice_LSB/Din"
+        ]
+      },
+      "IP1_0_0_1": {
+        "ports": [
+          "Enable",
+          "ring_oscillator_16_w_0/IP1_0",
+          "ring_oscillator_16_w_1/IP1_0"
+        ]
+      },
+      "c_counter_binary_0_Q": {
+        "ports": [
+          "c_counter_binary_0/Q",
+          "comparator_0/a"
+        ]
+      },
+      "c_counter_binary_1_Q": {
+        "ports": [
+          "c_counter_binary_1/Q",
+          "comparator_0/b"
+        ]
+      },
+      "comparator_0_res": {
+        "ports": [
+          "comparator_0/res",
+          "res_0"
+        ]
+      },
+      "inp_clock_0_1": {
+        "ports": [
+          "inp_clock_0",
+          "Accumulator_0/inp_clock"
+        ]
+      },
+      "multiplexer_16to1_0_o": {
+        "ports": [
+          "multiplexer_16to1_0/o",
+          "c_counter_binary_0/CLK"
+        ]
+      },
+      "multiplexer_16to1_1_o": {
+        "ports": [
+          "multiplexer_16to1_1/o",
+          "c_counter_binary_1/CLK"
+        ]
+      },
+      "ring_oscillator_16_w_0_OP1_0": {
+        "ports": [
+          "ring_oscillator_16_w_0/OP1_0",
+          "xlconcat_1/In0"
+        ]
+      },
+      "ring_oscillator_16_w_0_OP1_1": {
+        "ports": [
+          "ring_oscillator_16_w_0/OP1_1",
+          "xlconcat_1/In1"
+        ]
+      },
+      "ring_oscillator_16_w_0_OP1_2": {
+        "ports": [
+          "ring_oscillator_16_w_0/OP1_2",
+          "xlconcat_1/In8"
+        ]
+      },
+      "ring_oscillator_16_w_0_OP1_3": {
+        "ports": [
+          "ring_oscillator_16_w_0/OP1_3",
+          "xlconcat_1/In9"
+        ]
+      },
+      "ring_oscillator_16_w_0_OP1_4": {
+        "ports": [
+          "ring_oscillator_16_w_0/OP1_4",
+          "xlconcat_1/In10"
+        ]
+      },
+      "ring_oscillator_16_w_0_OP1_5": {
+        "ports": [
+          "ring_oscillator_16_w_0/OP1_5",
+          "xlconcat_1/In11"
+        ]
+      },
+      "ring_oscillator_16_w_0_OP1_6": {
+        "ports": [
+          "ring_oscillator_16_w_0/OP1_6",
+          "xlconcat_1/In12"
+        ]
+      },
+      "ring_oscillator_16_w_0_OP1_7": {
+        "ports": [
+          "ring_oscillator_16_w_0/OP1_7",
+          "xlconcat_1/In13"
+        ]
+      },
+      "ring_oscillator_16_w_0_OP1_8": {
+        "ports": [
+          "ring_oscillator_16_w_0/OP1_8",
+          "xlconcat_1/In14"
+        ]
+      },
+      "ring_oscillator_16_w_0_OP1_9": {
+        "ports": [
+          "ring_oscillator_16_w_0/OP1_9",
+          "xlconcat_1/In15"
+        ]
+      },
+      "ring_oscillator_16_w_0_OP1_10": {
+        "ports": [
+          "ring_oscillator_16_w_0/OP1_10",
+          "xlconcat_1/In2"
+        ]
+      },
+      "ring_oscillator_16_w_0_OP1_11": {
+        "ports": [
+          "ring_oscillator_16_w_0/OP1_11",
+          "xlconcat_1/In3"
+        ]
+      },
+      "ring_oscillator_16_w_0_OP1_12": {
+        "ports": [
+          "ring_oscillator_16_w_0/OP1_12",
+          "xlconcat_1/In4"
+        ]
+      },
+      "ring_oscillator_16_w_0_OP1_13": {
+        "ports": [
+          "ring_oscillator_16_w_0/OP1_13",
+          "xlconcat_1/In5"
+        ]
+      },
+      "ring_oscillator_16_w_0_OP1_14": {
+        "ports": [
+          "ring_oscillator_16_w_0/OP1_14",
+          "xlconcat_1/In6"
+        ]
+      },
+      "ring_oscillator_16_w_0_OP1_15": {
+        "ports": [
+          "ring_oscillator_16_w_0/OP1_15",
+          "xlconcat_1/In7"
+        ]
+      },
+      "ring_oscillator_16_w_1_OP1_0": {
+        "ports": [
+          "ring_oscillator_16_w_1/OP1_0",
+          "xlconcat_0/In0"
+        ]
+      },
+      "ring_oscillator_16_w_1_OP1_1": {
+        "ports": [
+          "ring_oscillator_16_w_1/OP1_1",
+          "xlconcat_0/In1"
+        ]
+      },
+      "ring_oscillator_16_w_1_OP1_2": {
+        "ports": [
+          "ring_oscillator_16_w_1/OP1_2",
+          "xlconcat_0/In8"
+        ]
+      },
+      "ring_oscillator_16_w_1_OP1_3": {
+        "ports": [
+          "ring_oscillator_16_w_1/OP1_3",
+          "xlconcat_0/In9"
+        ]
+      },
+      "ring_oscillator_16_w_1_OP1_4": {
+        "ports": [
+          "ring_oscillator_16_w_1/OP1_4",
+          "xlconcat_0/In10"
+        ]
+      },
+      "ring_oscillator_16_w_1_OP1_5": {
+        "ports": [
+          "ring_oscillator_16_w_1/OP1_5",
+          "xlconcat_0/In11"
+        ]
+      },
+      "ring_oscillator_16_w_1_OP1_6": {
+        "ports": [
+          "ring_oscillator_16_w_1/OP1_6",
+          "xlconcat_0/In12"
+        ]
+      },
+      "ring_oscillator_16_w_1_OP1_7": {
+        "ports": [
+          "ring_oscillator_16_w_1/OP1_7",
+          "xlconcat_0/In13"
+        ]
+      },
+      "ring_oscillator_16_w_1_OP1_8": {
+        "ports": [
+          "ring_oscillator_16_w_1/OP1_8",
+          "xlconcat_0/In14"
+        ]
+      },
+      "ring_oscillator_16_w_1_OP1_9": {
+        "ports": [
+          "ring_oscillator_16_w_1/OP1_9",
+          "xlconcat_0/In15"
+        ]
+      },
+      "ring_oscillator_16_w_1_OP1_10": {
+        "ports": [
+          "ring_oscillator_16_w_1/OP1_10",
+          "xlconcat_0/In2"
+        ]
+      },
+      "ring_oscillator_16_w_1_OP1_11": {
+        "ports": [
+          "ring_oscillator_16_w_1/OP1_11",
+          "xlconcat_0/In3"
+        ]
+      },
+      "ring_oscillator_16_w_1_OP1_12": {
+        "ports": [
+          "ring_oscillator_16_w_1/OP1_12",
+          "xlconcat_0/In4"
+        ]
+      },
+      "ring_oscillator_16_w_1_OP1_13": {
+        "ports": [
+          "ring_oscillator_16_w_1/OP1_13",
+          "xlconcat_0/In5"
+        ]
+      },
+      "ring_oscillator_16_w_1_OP1_14": {
+        "ports": [
+          "ring_oscillator_16_w_1/OP1_14",
+          "xlconcat_0/In6"
+        ]
+      },
+      "ring_oscillator_16_w_1_OP1_15": {
+        "ports": [
+          "ring_oscillator_16_w_1/OP1_15",
+          "xlconcat_0/In7"
+        ]
+      },
+      "xlconcat_0_dout": {
+        "ports": [
+          "xlconcat_0/dout",
+          "multiplexer_16to1_1/inp"
+        ]
+      },
+      "xlconcat_1_dout": {
+        "ports": [
+          "xlconcat_1/dout",
+          "multiplexer_16to1_0/inp"
+        ]
+      },
+      "xlconstant_0_dout": {
+        "ports": [
+          "xlconstant_0/dout",
+          "Accumulator_0/inp_signal"
+        ]
+      },
+      "xlslice_LSB_Dout": {
+        "ports": [
+          "xlslice_LSB/Dout",
+          "multiplexer_16to1_1/sel"
+        ]
+      },
+      "xlslice_MSB_Dout": {
+        "ports": [
+          "xlslice_MSB/Dout",
+          "multiplexer_16to1_0/sel"
+        ]
+      }
+    }
+  }
+}

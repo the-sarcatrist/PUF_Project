@@ -1,0 +1,80 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.607826",
+   "Default View_TopLeft":"-436,-61",
+   "ExpandedHierarchyInLayout":"",
+   "PinnedBlocks":"",
+   "PinnedPorts":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_out_result_0 -pg 1 -lvl 6 -x 1130 -y 1060 -defaultsOSRD
+preplace port port-id_inp_clock_0 -pg 1 -lvl 0 -x 0 -y 1130 -defaultsOSRD
+preplace port port-id_output_final_0 -pg 1 -lvl 6 -x 1130 -y 1090 -defaultsOSRD
+preplace port port-id_res_0 -pg 1 -lvl 6 -x 1130 -y 960 -defaultsOSRD
+preplace portBus Enable -pg 1 -lvl 0 -x 0 -y 210 -defaultsOSRD
+preplace portBus Din_Challenge_0 -pg 1 -lvl 0 -x 0 -y 860 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 2 -x 360 -y 610 -defaultsOSRD
+preplace inst xlconcat_1 -pg 1 -lvl 2 -x 360 -y 210 -defaultsOSRD
+preplace inst c_counter_binary_0 -pg 1 -lvl 4 -x 760 -y 850 -defaultsOSRD
+preplace inst c_counter_binary_1 -pg 1 -lvl 4 -x 760 -y 970 -defaultsOSRD
+preplace inst xlslice_LSB -pg 1 -lvl 2 -x 360 -y 980 -defaultsOSRD
+preplace inst xlslice_MSB -pg 1 -lvl 2 -x 360 -y 860 -defaultsOSRD
+preplace inst multiplexer_16to1_0 -pg 1 -lvl 3 -x 570 -y 850 -defaultsOSRD
+preplace inst multiplexer_16to1_1 -pg 1 -lvl 3 -x 570 -y 970 -defaultsOSRD
+preplace inst comparator_0 -pg 1 -lvl 5 -x 980 -y 960 -defaultsOSRD
+preplace inst Accumulator_0 -pg 1 -lvl 5 -x 980 -y 1080 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 4 -x 760 -y 1070 -defaultsOSRD
+preplace inst ring_oscillator_16_w_0 -pg 1 -lvl 1 -x 140 -y 210 -defaultsOSRD
+preplace inst ring_oscillator_16_w_1 -pg 1 -lvl 1 -x 140 -y 610 -defaultsOSRD
+preplace netloc Accumulator_0_out_result 1 5 1 1110J 1060n
+preplace netloc Accumulator_0_output_final 1 5 1 NJ 1090
+preplace netloc Din_0_1 1 0 2 NJ 860 260
+preplace netloc IP1_0_0_1 1 0 1 20 210n
+preplace netloc c_counter_binary_0_Q 1 4 1 850 850n
+preplace netloc c_counter_binary_1_Q 1 4 1 NJ 970
+preplace netloc inp_clock_0_1 1 0 5 NJ 1130 NJ 1130 NJ 1130 NJ 1130 850J
+preplace netloc multiplexer_16to1_0_o 1 3 1 NJ 850
+preplace netloc multiplexer_16to1_1_o 1 3 1 N 970
+preplace netloc ring_oscillator_16_w_0_OP1_0 1 1 1 N 60
+preplace netloc ring_oscillator_16_w_0_OP1_1 1 1 1 N 80
+preplace netloc ring_oscillator_16_w_0_OP1_2 1 1 1 N 220
+preplace netloc ring_oscillator_16_w_0_OP1_3 1 1 1 N 240
+preplace netloc ring_oscillator_16_w_0_OP1_4 1 1 1 N 260
+preplace netloc ring_oscillator_16_w_0_OP1_5 1 1 1 N 280
+preplace netloc ring_oscillator_16_w_0_OP1_6 1 1 1 N 300
+preplace netloc ring_oscillator_16_w_0_OP1_7 1 1 1 N 320
+preplace netloc ring_oscillator_16_w_0_OP1_8 1 1 1 N 340
+preplace netloc ring_oscillator_16_w_0_OP1_9 1 1 1 N 360
+preplace netloc ring_oscillator_16_w_0_OP1_10 1 1 1 N 100
+preplace netloc ring_oscillator_16_w_0_OP1_11 1 1 1 N 120
+preplace netloc ring_oscillator_16_w_0_OP1_12 1 1 1 N 140
+preplace netloc ring_oscillator_16_w_0_OP1_13 1 1 1 N 160
+preplace netloc ring_oscillator_16_w_0_OP1_14 1 1 1 N 180
+preplace netloc ring_oscillator_16_w_0_OP1_15 1 1 1 N 200
+preplace netloc ring_oscillator_16_w_1_OP1_0 1 1 1 N 460
+preplace netloc ring_oscillator_16_w_1_OP1_1 1 1 1 N 480
+preplace netloc ring_oscillator_16_w_1_OP1_2 1 1 1 N 620
+preplace netloc ring_oscillator_16_w_1_OP1_3 1 1 1 N 640
+preplace netloc ring_oscillator_16_w_1_OP1_4 1 1 1 N 660
+preplace netloc ring_oscillator_16_w_1_OP1_5 1 1 1 N 680
+preplace netloc ring_oscillator_16_w_1_OP1_6 1 1 1 N 700
+preplace netloc ring_oscillator_16_w_1_OP1_7 1 1 1 N 720
+preplace netloc ring_oscillator_16_w_1_OP1_8 1 1 1 N 740
+preplace netloc ring_oscillator_16_w_1_OP1_9 1 1 1 N 760
+preplace netloc ring_oscillator_16_w_1_OP1_10 1 1 1 N 500
+preplace netloc ring_oscillator_16_w_1_OP1_11 1 1 1 N 520
+preplace netloc ring_oscillator_16_w_1_OP1_12 1 1 1 N 540
+preplace netloc ring_oscillator_16_w_1_OP1_13 1 1 1 N 560
+preplace netloc ring_oscillator_16_w_1_OP1_14 1 1 1 N 580
+preplace netloc ring_oscillator_16_w_1_OP1_15 1 1 1 N 600
+preplace netloc xlconcat_0_dout 1 2 1 460 610n
+preplace netloc xlconcat_1_dout 1 2 1 470 210n
+preplace netloc xlslice_LSB_Dout 1 2 1 NJ 980
+preplace netloc xlslice_MSB_Dout 1 2 1 NJ 860
+preplace netloc comparator_0_res 1 5 1 NJ 960
+preplace netloc xlconstant_0_dout 1 4 1 NJ 1070
+levelinfo -pg 1 0 140 360 570 760 980 1130
+pagesize -pg 1 -db -bbox -sgen -180 0 1270 1150
+"
+}
+0

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root MajorVersion="0" MinorVersion="39">
+  <CompositeFile CompositeFileTopName="ring_oscillator_inst_6" CanBeSetAsTop="false" CanDisplayChildGraph="true">
+    <Description>Composite Fileset</Description>
+    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1696329835"/>
+    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1696329835"/>
+    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1696329835"/>
+    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1696329835"/>
+    <FileCollection Name="SOURCES" Type="SOURCES">
+      <File Name="synth\ring_oscillator_inst_6.v" Type="Verilog">
+        <Properties IsEditable="false" IsVisible="true" IsNetlistSimulation="false" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+      </File>
+      <File Name="sim\ring_oscillator_inst_6.v" Type="Verilog">
+        <Properties IsEditable="false" IsVisible="true" IsNetlistSimulation="false" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ring_oscillator_inst_6_ooc.xdc" Type="XDC">
+        <Properties IsEditable="false" IsVisible="true" IsNetlistSimulation="false" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="OUT_OF_CONTEXT"/>
+      </File>
+      <File Name="hw_handoff\ring_oscillator_inst_6.hwh" Type="HwHandoff">
+        <Properties IsEditable="false" IsVisible="true" IsNetlistSimulation="false" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
+      </File>
+      <File Name="ring_oscillator_inst_6.bda">
+        <Properties IsEditable="false" IsVisible="true" IsNetlistSimulation="false" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
+      </File>
+      <File Name="hw_handoff\ring_oscillator_inst_6_bd.tcl">
+        <Properties IsEditable="false" IsVisible="true" IsNetlistSimulation="false" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
+      </File>
+      <File Name="synth\ring_oscillator_inst_6.hwdef">
+        <Properties IsEditable="false" IsVisible="true" IsNetlistSimulation="false" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
+      </File>
+      <File Name="sim\ring_oscillator_inst_6.protoinst">
+        <Properties IsEditable="false" IsVisible="true" IsNetlistSimulation="false" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+    </FileCollection>
+  </CompositeFile>
+</Root>

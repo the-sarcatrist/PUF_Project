@@ -1,0 +1,165 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x7FE485AC35BC5BA6",
+      "design_src": "D:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.srcs/sources_1/bd/ring_oscillator/ring_oscillator.bd",
+      "device": "xc7z020clg400-1",
+      "name": "ring_oscillator_inst_6",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2021.1",
+      "validated": "true",
+      "variant": "true"
+    },
+    "design_tree": {
+      "util_vector_logic_0": "",
+      "util_vector_logic_1": "",
+      "util_vector_logic_2": "",
+      "util_vector_logic_3": "",
+      "util_vector_logic_4": ""
+    },
+    "ports": {
+      "OP1": {
+        "direction": "O",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "default"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "default"
+          }
+        }
+      },
+      "IP1": {
+        "direction": "I",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "strong"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "strong"
+          }
+        }
+      }
+    },
+    "components": {
+      "util_vector_logic_0": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "ring_oscillator_inst_6_util_vector_logic_0_0",
+        "xci_path": "ip\\ring_oscillator_inst_6_util_vector_logic_0_0\\ring_oscillator_inst_6_util_vector_logic_0_0.xci",
+        "inst_hier_path": "util_vector_logic_0",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "not"
+          },
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      },
+      "util_vector_logic_1": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "ring_oscillator_inst_6_util_vector_logic_1_0",
+        "xci_path": "ip\\ring_oscillator_inst_6_util_vector_logic_1_0\\ring_oscillator_inst_6_util_vector_logic_1_0.xci",
+        "inst_hier_path": "util_vector_logic_1",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "not"
+          },
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      },
+      "util_vector_logic_2": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "ring_oscillator_inst_6_util_vector_logic_2_0",
+        "xci_path": "ip\\ring_oscillator_inst_6_util_vector_logic_2_0\\ring_oscillator_inst_6_util_vector_logic_2_0.xci",
+        "inst_hier_path": "util_vector_logic_2",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "not"
+          },
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      },
+      "util_vector_logic_3": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "ring_oscillator_inst_6_util_vector_logic_3_0",
+        "xci_path": "ip\\ring_oscillator_inst_6_util_vector_logic_3_0\\ring_oscillator_inst_6_util_vector_logic_3_0.xci",
+        "inst_hier_path": "util_vector_logic_3",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "not"
+          },
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      },
+      "util_vector_logic_4": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "ring_oscillator_inst_6_util_vector_logic_4_0",
+        "xci_path": "ip\\ring_oscillator_inst_6_util_vector_logic_4_0\\ring_oscillator_inst_6_util_vector_logic_4_0.xci",
+        "inst_hier_path": "util_vector_logic_4",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "and"
+          },
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      }
+    },
+    "nets": {
+      "Op1_0_1": {
+        "ports": [
+          "IP1",
+          "util_vector_logic_4/Op1"
+        ]
+      },
+      "util_vector_logic_0_Res": {
+        "ports": [
+          "util_vector_logic_0/Res",
+          "util_vector_logic_1/Op1"
+        ]
+      },
+      "util_vector_logic_1_Res": {
+        "ports": [
+          "util_vector_logic_1/Res",
+          "util_vector_logic_3/Op1"
+        ]
+      },
+      "util_vector_logic_2_Res": {
+        "ports": [
+          "util_vector_logic_2/Res",
+          "OP1",
+          "util_vector_logic_4/Op2"
+        ]
+      },
+      "util_vector_logic_3_Res": {
+        "ports": [
+          "util_vector_logic_3/Res",
+          "util_vector_logic_2/Op1"
+        ]
+      },
+      "util_vector_logic_4_Res": {
+        "ports": [
+          "util_vector_logic_4/Res",
+          "util_vector_logic_0/Op1"
+        ]
+      }
+    }
+  }
+}

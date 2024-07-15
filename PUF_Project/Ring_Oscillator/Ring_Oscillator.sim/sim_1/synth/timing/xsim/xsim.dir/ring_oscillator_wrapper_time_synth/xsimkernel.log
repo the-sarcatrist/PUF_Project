@@ -1,0 +1,7 @@
+Running: xsim.dir/ring_oscillator_wrapper_time_synth/xsimk.exe -simmode gui -wdb ring_oscillator_wrapper_time_synth.wdb -simrunnum 0 -socket 50582
+Design successfully loaded
+Design Loading Memory Usage: 10596 KB (Peak: 10596 KB)
+Design Loading CPU Usage: 61 ms
+Simulation completed
+Simulation Memory Usage: 11476 KB (Peak: 11476 KB)
+Simulation CPU Usage: 124 ms

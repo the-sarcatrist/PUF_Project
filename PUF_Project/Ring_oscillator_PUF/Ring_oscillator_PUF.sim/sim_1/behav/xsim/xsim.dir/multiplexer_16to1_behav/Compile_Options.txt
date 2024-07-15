@@ -1,0 +1,1 @@
+-wto "64f6b17b48d74b989abfe9288dfcedfe" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "multiplexer_16to1_behav" "xil_defaultlib.multiplexer_16to1" "xil_defaultlib.glbl" -log "elaborate.log" 

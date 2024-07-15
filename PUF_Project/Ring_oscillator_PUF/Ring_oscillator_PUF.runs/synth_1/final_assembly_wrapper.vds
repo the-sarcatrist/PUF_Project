@@ -1,0 +1,287 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Mar  6 19:20:52 2024
+# Process ID: 22048
+# Current directory: F:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.runs/synth_1
+# Command line: vivado.exe -log final_assembly_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source final_assembly_wrapper.tcl
+# Log file: F:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.runs/synth_1/final_assembly_wrapper.vds
+# Journal file: F:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source final_assembly_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Vivado/2021.1/data/ip'.
+add_files: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1257.602 ; gain = 0.000
+Command: synth_design -top final_assembly_wrapper -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 12980
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1257.602 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'final_assembly_wrapper' [F:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/hdl/final_assembly_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'final_assembly' [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/synth/final_assembly.v:13]
+INFO: [Synth 8-6157] synthesizing module 'final_assembly_Accumulator_0_0' [F:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.runs/synth_1/.Xil/Vivado-22048-DESKTOP-POT3D0P/realtime/final_assembly_Accumulator_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'final_assembly_Accumulator_0_0' (1#1) [F:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.runs/synth_1/.Xil/Vivado-22048-DESKTOP-POT3D0P/realtime/final_assembly_Accumulator_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'final_assembly_c_counter_binary_0_0' [F:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.runs/synth_1/.Xil/Vivado-22048-DESKTOP-POT3D0P/realtime/final_assembly_c_counter_binary_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'final_assembly_c_counter_binary_0_0' (2#1) [F:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.runs/synth_1/.Xil/Vivado-22048-DESKTOP-POT3D0P/realtime/final_assembly_c_counter_binary_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'final_assembly_c_counter_binary_1_0' [F:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.runs/synth_1/.Xil/Vivado-22048-DESKTOP-POT3D0P/realtime/final_assembly_c_counter_binary_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'final_assembly_c_counter_binary_1_0' (3#1) [F:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.runs/synth_1/.Xil/Vivado-22048-DESKTOP-POT3D0P/realtime/final_assembly_c_counter_binary_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'final_assembly_comparator_0_0' [F:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.runs/synth_1/.Xil/Vivado-22048-DESKTOP-POT3D0P/realtime/final_assembly_comparator_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'final_assembly_comparator_0_0' (4#1) [F:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.runs/synth_1/.Xil/Vivado-22048-DESKTOP-POT3D0P/realtime/final_assembly_comparator_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'final_assembly_multiplexer_16to1_0_0' [F:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.runs/synth_1/.Xil/Vivado-22048-DESKTOP-POT3D0P/realtime/final_assembly_multiplexer_16to1_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'final_assembly_multiplexer_16to1_0_0' (5#1) [F:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.runs/synth_1/.Xil/Vivado-22048-DESKTOP-POT3D0P/realtime/final_assembly_multiplexer_16to1_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'final_assembly_multiplexer_16to1_1_0' [F:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.runs/synth_1/.Xil/Vivado-22048-DESKTOP-POT3D0P/realtime/final_assembly_multiplexer_16to1_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'final_assembly_multiplexer_16to1_1_0' (6#1) [F:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.runs/synth_1/.Xil/Vivado-22048-DESKTOP-POT3D0P/realtime/final_assembly_multiplexer_16to1_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'final_assembly_ring_oscillator_16_w_0_0' [F:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.runs/synth_1/.Xil/Vivado-22048-DESKTOP-POT3D0P/realtime/final_assembly_ring_oscillator_16_w_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'final_assembly_ring_oscillator_16_w_0_0' (7#1) [F:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.runs/synth_1/.Xil/Vivado-22048-DESKTOP-POT3D0P/realtime/final_assembly_ring_oscillator_16_w_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'final_assembly_ring_oscillator_16_w_1_0' [F:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.runs/synth_1/.Xil/Vivado-22048-DESKTOP-POT3D0P/realtime/final_assembly_ring_oscillator_16_w_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'final_assembly_ring_oscillator_16_w_1_0' (8#1) [F:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.runs/synth_1/.Xil/Vivado-22048-DESKTOP-POT3D0P/realtime/final_assembly_ring_oscillator_16_w_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'final_assembly_xlconcat_0_0' [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ip/final_assembly_xlconcat_0_0/synth/final_assembly_xlconcat_0_0.v:60]
+INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_4_xlconcat' [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_4_xlconcat' (9#1) [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'final_assembly_xlconcat_0_0' (10#1) [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ip/final_assembly_xlconcat_0_0/synth/final_assembly_xlconcat_0_0.v:60]
+INFO: [Synth 8-6157] synthesizing module 'final_assembly_xlconcat_1_0' [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ip/final_assembly_xlconcat_1_0/synth/final_assembly_xlconcat_1_0.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'final_assembly_xlconcat_1_0' (11#1) [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ip/final_assembly_xlconcat_1_0/synth/final_assembly_xlconcat_1_0.v:60]
+INFO: [Synth 8-6157] synthesizing module 'final_assembly_xlconstant_0_0' [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ip/final_assembly_xlconstant_0_0/synth/final_assembly_xlconstant_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_7_xlconstant' [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ipshared/fcfc/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_7_xlconstant' (12#1) [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ipshared/fcfc/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'final_assembly_xlconstant_0_0' (13#1) [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ip/final_assembly_xlconstant_0_0/synth/final_assembly_xlconstant_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'final_assembly_xlslice_0_0' [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ip/final_assembly_xlslice_0_0/synth/final_assembly_xlslice_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_2_xlslice' [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ipshared/11d0/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_2_xlslice' (14#1) [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ipshared/11d0/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'final_assembly_xlslice_0_0' (15#1) [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ip/final_assembly_xlslice_0_0/synth/final_assembly_xlslice_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'final_assembly_xlslice_1_0' [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ip/final_assembly_xlslice_1_0/synth/final_assembly_xlslice_1_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_2_xlslice__parameterized0' [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ipshared/11d0/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_2_xlslice__parameterized0' (15#1) [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ipshared/11d0/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'final_assembly_xlslice_1_0' (16#1) [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ip/final_assembly_xlslice_1_0/synth/final_assembly_xlslice_1_0.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'final_assembly' (17#1) [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/synth/final_assembly.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'final_assembly_wrapper' (18#1) [F:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/hdl/final_assembly_wrapper.v:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1257.602 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1257.602 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1257.602 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1257.602 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ip/final_assembly_c_counter_binary_0_0/final_assembly_c_counter_binary_0_0/final_assembly_c_counter_binary_0_0_in_context.xdc] for cell 'final_assembly_i/c_counter_binary_0'
+Finished Parsing XDC File [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ip/final_assembly_c_counter_binary_0_0/final_assembly_c_counter_binary_0_0/final_assembly_c_counter_binary_0_0_in_context.xdc] for cell 'final_assembly_i/c_counter_binary_0'
+Parsing XDC File [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ip/final_assembly_c_counter_binary_1_0/final_assembly_c_counter_binary_1_0/final_assembly_c_counter_binary_0_0_in_context.xdc] for cell 'final_assembly_i/c_counter_binary_1'
+Finished Parsing XDC File [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ip/final_assembly_c_counter_binary_1_0/final_assembly_c_counter_binary_1_0/final_assembly_c_counter_binary_0_0_in_context.xdc] for cell 'final_assembly_i/c_counter_binary_1'
+Parsing XDC File [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ip/final_assembly_multiplexer_16to1_0_0/final_assembly_multiplexer_16to1_0_0/final_assembly_multiplexer_16to1_0_0_in_context.xdc] for cell 'final_assembly_i/multiplexer_16to1_0'
+Finished Parsing XDC File [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ip/final_assembly_multiplexer_16to1_0_0/final_assembly_multiplexer_16to1_0_0/final_assembly_multiplexer_16to1_0_0_in_context.xdc] for cell 'final_assembly_i/multiplexer_16to1_0'
+Parsing XDC File [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ip/final_assembly_multiplexer_16to1_1_0/final_assembly_multiplexer_16to1_1_0/final_assembly_multiplexer_16to1_0_0_in_context.xdc] for cell 'final_assembly_i/multiplexer_16to1_1'
+Finished Parsing XDC File [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ip/final_assembly_multiplexer_16to1_1_0/final_assembly_multiplexer_16to1_1_0/final_assembly_multiplexer_16to1_0_0_in_context.xdc] for cell 'final_assembly_i/multiplexer_16to1_1'
+Parsing XDC File [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ip/final_assembly_comparator_0_0/final_assembly_comparator_0_0/final_assembly_comparator_0_0_in_context.xdc] for cell 'final_assembly_i/comparator_0'
+Finished Parsing XDC File [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ip/final_assembly_comparator_0_0/final_assembly_comparator_0_0/final_assembly_comparator_0_0_in_context.xdc] for cell 'final_assembly_i/comparator_0'
+Parsing XDC File [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ip/final_assembly_Accumulator_0_0/final_assembly_Accumulator_0_0/final_assembly_Accumulator_0_0_in_context.xdc] for cell 'final_assembly_i/Accumulator_0'
+Finished Parsing XDC File [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ip/final_assembly_Accumulator_0_0/final_assembly_Accumulator_0_0/final_assembly_Accumulator_0_0_in_context.xdc] for cell 'final_assembly_i/Accumulator_0'
+Parsing XDC File [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ip/final_assembly_ring_oscillator_16_w_0_0/final_assembly_ring_oscillator_16_w_0_0/final_assembly_ring_oscillator_16_w_0_0_in_context.xdc] for cell 'final_assembly_i/ring_oscillator_16_w_0'
+Finished Parsing XDC File [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ip/final_assembly_ring_oscillator_16_w_0_0/final_assembly_ring_oscillator_16_w_0_0/final_assembly_ring_oscillator_16_w_0_0_in_context.xdc] for cell 'final_assembly_i/ring_oscillator_16_w_0'
+Parsing XDC File [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ip/final_assembly_ring_oscillator_16_w_1_0/final_assembly_ring_oscillator_16_w_1_0/final_assembly_ring_oscillator_16_w_0_0_in_context.xdc] for cell 'final_assembly_i/ring_oscillator_16_w_1'
+Finished Parsing XDC File [f:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.gen/sources_1/bd/final_assembly/ip/final_assembly_ring_oscillator_16_w_1_0/final_assembly_ring_oscillator_16_w_1_0/final_assembly_ring_oscillator_16_w_0_0_in_context.xdc] for cell 'final_assembly_i/ring_oscillator_16_w_1'
+Parsing XDC File [F:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.srcs/constrs_1/new/const.xdc]
+Finished Parsing XDC File [F:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.srcs/constrs_1/new/const.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [F:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.srcs/constrs_1/new/const.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/final_assembly_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/final_assembly_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [F:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [F:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1257.602 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1257.602 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1257.602 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1257.602 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for final_assembly_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for final_assembly_i/xlconcat_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for final_assembly_i/xlconcat_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for final_assembly_i/c_counter_binary_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for final_assembly_i/c_counter_binary_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for final_assembly_i/xlslice_LSB. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for final_assembly_i/xlslice_MSB. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for final_assembly_i/multiplexer_16to1_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for final_assembly_i/multiplexer_16to1_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for final_assembly_i/comparator_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for final_assembly_i/Accumulator_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for final_assembly_i/xlconstant_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for final_assembly_i/ring_oscillator_16_w_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for final_assembly_i/ring_oscillator_16_w_1. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1257.602 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1257.602 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1257.602 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1289.449 ; gain = 31.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1289.602 ; gain = 32.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1308.715 ; gain = 51.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1313.500 ; gain = 55.898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1313.500 ; gain = 55.898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1313.500 ; gain = 55.898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1313.500 ; gain = 55.898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1313.500 ; gain = 55.898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1313.500 ; gain = 55.898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+----------------------------------------+----------+
+|      |BlackBox name                           |Instances |
++------+----------------------------------------+----------+
+|1     |final_assembly_Accumulator_0_0          |         1|
+|2     |final_assembly_c_counter_binary_0_0     |         1|
+|3     |final_assembly_c_counter_binary_1_0     |         1|
+|4     |final_assembly_comparator_0_0           |         1|
+|5     |final_assembly_multiplexer_16to1_0_0    |         1|
+|6     |final_assembly_multiplexer_16to1_1_0    |         1|
+|7     |final_assembly_ring_oscillator_16_w_0_0 |         1|
+|8     |final_assembly_ring_oscillator_16_w_1_0 |         1|
++------+----------------------------------------+----------+
+
+Report Cell Usage: 
++------+--------------------------------------+------+
+|      |Cell                                  |Count |
++------+--------------------------------------+------+
+|1     |final_assembly_Accumulator_0          |     1|
+|2     |final_assembly_c_counter_binary_0     |     1|
+|3     |final_assembly_c_counter_binary_1     |     1|
+|4     |final_assembly_comparator_0           |     1|
+|5     |final_assembly_multiplexer_16to1_0    |     1|
+|6     |final_assembly_multiplexer_16to1_1    |     1|
+|7     |final_assembly_ring_oscillator_16_w_0 |     1|
+|8     |final_assembly_ring_oscillator_16_w_1 |     1|
+|9     |IBUF                                  |    10|
+|10    |OBUF                                  |     3|
++------+--------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1313.500 ; gain = 55.898
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 1313.500 ; gain = 55.898
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1313.500 ; gain = 55.898
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1325.531 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1343.191 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 63db6c7a
+INFO: [Common 17-83] Releasing license: Synthesis
+54 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 1343.191 ; gain = 85.590
+INFO: [Common 17-1381] The checkpoint 'F:/Vivado/PUF_Project/Ring_oscillator_PUF/Ring_oscillator_PUF.runs/synth_1/final_assembly_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file final_assembly_wrapper_utilization_synth.rpt -pb final_assembly_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Mar  6 19:21:36 2024...

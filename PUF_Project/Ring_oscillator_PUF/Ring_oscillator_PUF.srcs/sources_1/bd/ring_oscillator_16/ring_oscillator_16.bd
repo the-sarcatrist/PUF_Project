@@ -1,0 +1,1482 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x257DB0A53639364F",
+      "device": "xc7z020clg400-1",
+      "gen_directory": "../../../../Ring_oscillator_PUF.gen/sources_1/bd/ring_oscillator_16",
+      "name": "ring_oscillator_16",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2021.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "ring_oscillator_0": "",
+      "ring_oscillator_1": "",
+      "ring_oscillator_2": "",
+      "ring_oscillator_3": "",
+      "ring_oscillator_4": "",
+      "ring_oscillator_5": "",
+      "ring_oscillator_6": "",
+      "ring_oscillator_7": "",
+      "ring_oscillator_8": "",
+      "ring_oscillator_9": "",
+      "ring_oscillator_10": "",
+      "ring_oscillator_11": "",
+      "ring_oscillator_12": "",
+      "ring_oscillator_13": "",
+      "ring_oscillator_14": "",
+      "ring_oscillator_15": ""
+    },
+    "ports": {
+      "IP1_0": {
+        "direction": "I",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "ip_prop"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "OP1_0": {
+        "direction": "O",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "ip_prop"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "OP1_1": {
+        "direction": "O",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "ip_prop"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "OP1_2": {
+        "direction": "O",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "ip_prop"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "OP1_3": {
+        "direction": "O",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "ip_prop"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "OP1_4": {
+        "direction": "O",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "ip_prop"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "OP1_5": {
+        "direction": "O",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "ip_prop"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "OP1_6": {
+        "direction": "O",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "ip_prop"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "OP1_7": {
+        "direction": "O",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "ip_prop"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "OP1_8": {
+        "direction": "O",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "ip_prop"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "OP1_9": {
+        "direction": "O",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "ip_prop"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "OP1_10": {
+        "direction": "O",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "ip_prop"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "OP1_11": {
+        "direction": "O",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "ip_prop"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "OP1_12": {
+        "direction": "O",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "ip_prop"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "OP1_13": {
+        "direction": "O",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "ip_prop"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "OP1_14": {
+        "direction": "O",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "ip_prop"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "OP1_15": {
+        "direction": "O",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "ip_prop"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "ip_prop"
+          }
+        }
+      }
+    },
+    "components": {
+      "ring_oscillator_0": {
+        "parameters": {
+          "ACTIVE_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ACTIVE_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ENABLE_DFX": {
+            "value": "0"
+          },
+          "LIST_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LIST_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LOCK_PROPAGATE": {
+            "value": "0"
+          }
+        },
+        "ports": {
+          "OP1": {
+            "direction": "O",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "IP1": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          }
+        },
+        "post_compiled_compname": "ring_oscillator_inst_2",
+        "architecture": "zynq",
+        "variant_info": {
+          "ring_oscillator.bd": {
+            "scoped_diagram": "ring_oscillator_inst_2.bd",
+            "design_checksum": "0x6DC615D4",
+            "ref_name": "ring_oscillator",
+            "ref_subinst_path": "ring_oscillator_16_ring_oscillator_0",
+            "ref_type": "Block Design",
+            "source_type": "all",
+            "active": "all"
+          }
+        }
+      },
+      "ring_oscillator_1": {
+        "parameters": {
+          "ACTIVE_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ACTIVE_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ENABLE_DFX": {
+            "value": "0"
+          },
+          "LIST_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LIST_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LOCK_PROPAGATE": {
+            "value": "0"
+          }
+        },
+        "ports": {
+          "OP1": {
+            "direction": "O",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "IP1": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          }
+        },
+        "post_compiled_compname": "ring_oscillator_inst_3",
+        "architecture": "zynq",
+        "variant_info": {
+          "ring_oscillator.bd": {
+            "scoped_diagram": "ring_oscillator_inst_3.bd",
+            "design_checksum": "0x6DC615D4",
+            "ref_name": "ring_oscillator",
+            "ref_subinst_path": "ring_oscillator_16ring_oscillator_1",
+            "ref_type": "Block Design",
+            "source_type": "all",
+            "active": "all"
+          }
+        }
+      },
+      "ring_oscillator_2": {
+        "parameters": {
+          "ACTIVE_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ACTIVE_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ENABLE_DFX": {
+            "value": "0"
+          },
+          "LIST_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LIST_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LOCK_PROPAGATE": {
+            "value": "0"
+          }
+        },
+        "ports": {
+          "OP1": {
+            "direction": "O",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "IP1": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          }
+        },
+        "post_compiled_compname": "ring_oscillator_inst_4",
+        "architecture": "zynq",
+        "variant_info": {
+          "ring_oscillator.bd": {
+            "scoped_diagram": "ring_oscillator_inst_4.bd",
+            "design_checksum": "0x6DC615D4",
+            "ref_name": "ring_oscillator",
+            "ref_subinst_path": "ring_oscillator_16ring_oscillator_2",
+            "ref_type": "Block Design",
+            "source_type": "all",
+            "active": "all"
+          }
+        }
+      },
+      "ring_oscillator_3": {
+        "parameters": {
+          "ACTIVE_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ACTIVE_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ENABLE_DFX": {
+            "value": "0"
+          },
+          "LIST_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LIST_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LOCK_PROPAGATE": {
+            "value": "0"
+          }
+        },
+        "ports": {
+          "OP1": {
+            "direction": "O",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "IP1": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          }
+        },
+        "post_compiled_compname": "ring_oscillator_inst_5",
+        "architecture": "zynq",
+        "variant_info": {
+          "ring_oscillator.bd": {
+            "scoped_diagram": "ring_oscillator_inst_5.bd",
+            "design_checksum": "0x6DC615D4",
+            "ref_name": "ring_oscillator",
+            "ref_subinst_path": "ring_oscillator_16ring_oscillator_3",
+            "ref_type": "Block Design",
+            "source_type": "all",
+            "active": "all"
+          }
+        }
+      },
+      "ring_oscillator_4": {
+        "parameters": {
+          "ACTIVE_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ACTIVE_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ENABLE_DFX": {
+            "value": "0"
+          },
+          "LIST_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LIST_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LOCK_PROPAGATE": {
+            "value": "0"
+          }
+        },
+        "ports": {
+          "OP1": {
+            "direction": "O",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "IP1": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          }
+        },
+        "post_compiled_compname": "ring_oscillator_inst_6",
+        "architecture": "zynq",
+        "variant_info": {
+          "ring_oscillator.bd": {
+            "scoped_diagram": "ring_oscillator_inst_6.bd",
+            "design_checksum": "0x6DC615D4",
+            "ref_name": "ring_oscillator",
+            "ref_subinst_path": "ring_oscillator_16ring_oscillator_4",
+            "ref_type": "Block Design",
+            "source_type": "all",
+            "active": "all"
+          }
+        }
+      },
+      "ring_oscillator_5": {
+        "parameters": {
+          "ACTIVE_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ACTIVE_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ENABLE_DFX": {
+            "value": "0"
+          },
+          "LIST_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LIST_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LOCK_PROPAGATE": {
+            "value": "0"
+          }
+        },
+        "ports": {
+          "OP1": {
+            "direction": "O",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "IP1": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          }
+        },
+        "post_compiled_compname": "ring_oscillator_inst_7",
+        "architecture": "zynq",
+        "variant_info": {
+          "ring_oscillator.bd": {
+            "scoped_diagram": "ring_oscillator_inst_7.bd",
+            "design_checksum": "0x6DC615D4",
+            "ref_name": "ring_oscillator",
+            "ref_subinst_path": "ring_oscillator_16ring_oscillator_5",
+            "ref_type": "Block Design",
+            "source_type": "all",
+            "active": "all"
+          }
+        }
+      },
+      "ring_oscillator_6": {
+        "parameters": {
+          "ACTIVE_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ACTIVE_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ENABLE_DFX": {
+            "value": "0"
+          },
+          "LIST_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LIST_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LOCK_PROPAGATE": {
+            "value": "0"
+          }
+        },
+        "ports": {
+          "OP1": {
+            "direction": "O",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "IP1": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          }
+        },
+        "post_compiled_compname": "ring_oscillator_inst_8",
+        "architecture": "zynq",
+        "variant_info": {
+          "ring_oscillator.bd": {
+            "scoped_diagram": "ring_oscillator_inst_8.bd",
+            "design_checksum": "0x6DC615D4",
+            "ref_name": "ring_oscillator",
+            "ref_subinst_path": "ring_oscillator_16ring_oscillator_6",
+            "ref_type": "Block Design",
+            "source_type": "all",
+            "active": "all"
+          }
+        }
+      },
+      "ring_oscillator_7": {
+        "parameters": {
+          "ACTIVE_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ACTIVE_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ENABLE_DFX": {
+            "value": "0"
+          },
+          "LIST_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LIST_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LOCK_PROPAGATE": {
+            "value": "0"
+          }
+        },
+        "ports": {
+          "OP1": {
+            "direction": "O",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "IP1": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          }
+        },
+        "post_compiled_compname": "ring_oscillator_inst_9",
+        "architecture": "zynq",
+        "variant_info": {
+          "ring_oscillator.bd": {
+            "scoped_diagram": "ring_oscillator_inst_9.bd",
+            "design_checksum": "0x6DC615D4",
+            "ref_name": "ring_oscillator",
+            "ref_subinst_path": "ring_oscillator_16ring_oscillator_7",
+            "ref_type": "Block Design",
+            "source_type": "all",
+            "active": "all"
+          }
+        }
+      },
+      "ring_oscillator_8": {
+        "parameters": {
+          "ACTIVE_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ACTIVE_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ENABLE_DFX": {
+            "value": "0"
+          },
+          "LIST_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LIST_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LOCK_PROPAGATE": {
+            "value": "0"
+          }
+        },
+        "ports": {
+          "OP1": {
+            "direction": "O",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "IP1": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          }
+        },
+        "post_compiled_compname": "ring_oscillator_inst_10",
+        "architecture": "zynq",
+        "variant_info": {
+          "ring_oscillator.bd": {
+            "scoped_diagram": "ring_oscillator_inst_10.bd",
+            "design_checksum": "0x6DC615D4",
+            "ref_name": "ring_oscillator",
+            "ref_subinst_path": "ring_oscillator_16ring_oscillator_8",
+            "ref_type": "Block Design",
+            "source_type": "all",
+            "active": "all"
+          }
+        }
+      },
+      "ring_oscillator_9": {
+        "parameters": {
+          "ACTIVE_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ACTIVE_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ENABLE_DFX": {
+            "value": "0"
+          },
+          "LIST_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LIST_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LOCK_PROPAGATE": {
+            "value": "0"
+          }
+        },
+        "ports": {
+          "OP1": {
+            "direction": "O",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "IP1": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          }
+        },
+        "post_compiled_compname": "ring_oscillator_inst_11",
+        "architecture": "zynq",
+        "variant_info": {
+          "ring_oscillator.bd": {
+            "scoped_diagram": "ring_oscillator_inst_11.bd",
+            "design_checksum": "0x6DC615D4",
+            "ref_name": "ring_oscillator",
+            "ref_subinst_path": "ring_oscillator_16ring_oscillator_9",
+            "ref_type": "Block Design",
+            "source_type": "all",
+            "active": "all"
+          }
+        }
+      },
+      "ring_oscillator_10": {
+        "parameters": {
+          "ACTIVE_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ACTIVE_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ENABLE_DFX": {
+            "value": "0"
+          },
+          "LIST_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LIST_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LOCK_PROPAGATE": {
+            "value": "0"
+          }
+        },
+        "ports": {
+          "OP1": {
+            "direction": "O",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "IP1": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          }
+        },
+        "post_compiled_compname": "ring_oscillator_inst_12",
+        "architecture": "zynq",
+        "variant_info": {
+          "ring_oscillator.bd": {
+            "scoped_diagram": "ring_oscillator_inst_12.bd",
+            "design_checksum": "0x6DC615D4",
+            "ref_name": "ring_oscillator",
+            "ref_subinst_path": "ring_oscillator_16ring_oscillator_10",
+            "ref_type": "Block Design",
+            "source_type": "all",
+            "active": "all"
+          }
+        }
+      },
+      "ring_oscillator_11": {
+        "parameters": {
+          "ACTIVE_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ACTIVE_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ENABLE_DFX": {
+            "value": "0"
+          },
+          "LIST_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LIST_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LOCK_PROPAGATE": {
+            "value": "0"
+          }
+        },
+        "ports": {
+          "OP1": {
+            "direction": "O",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "IP1": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          }
+        },
+        "post_compiled_compname": "ring_oscillator_inst_13",
+        "architecture": "zynq",
+        "variant_info": {
+          "ring_oscillator.bd": {
+            "scoped_diagram": "ring_oscillator_inst_13.bd",
+            "design_checksum": "0x6DC615D4",
+            "ref_name": "ring_oscillator",
+            "ref_subinst_path": "ring_oscillator_16ring_oscillator_11",
+            "ref_type": "Block Design",
+            "source_type": "all",
+            "active": "all"
+          }
+        }
+      },
+      "ring_oscillator_12": {
+        "parameters": {
+          "ACTIVE_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ACTIVE_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ENABLE_DFX": {
+            "value": "0"
+          },
+          "LIST_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LIST_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LOCK_PROPAGATE": {
+            "value": "0"
+          }
+        },
+        "ports": {
+          "OP1": {
+            "direction": "O",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "IP1": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          }
+        },
+        "post_compiled_compname": "ring_oscillator_inst_14",
+        "architecture": "zynq",
+        "variant_info": {
+          "ring_oscillator.bd": {
+            "scoped_diagram": "ring_oscillator_inst_14.bd",
+            "design_checksum": "0x6DC615D4",
+            "ref_name": "ring_oscillator",
+            "ref_subinst_path": "ring_oscillator_16ring_oscillator_12",
+            "ref_type": "Block Design",
+            "source_type": "all",
+            "active": "all"
+          }
+        }
+      },
+      "ring_oscillator_13": {
+        "parameters": {
+          "ACTIVE_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ACTIVE_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ENABLE_DFX": {
+            "value": "0"
+          },
+          "LIST_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LIST_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LOCK_PROPAGATE": {
+            "value": "0"
+          }
+        },
+        "ports": {
+          "OP1": {
+            "direction": "O",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "IP1": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          }
+        },
+        "post_compiled_compname": "ring_oscillator_inst_15",
+        "architecture": "zynq",
+        "variant_info": {
+          "ring_oscillator.bd": {
+            "scoped_diagram": "ring_oscillator_inst_15.bd",
+            "design_checksum": "0x6DC615D4",
+            "ref_name": "ring_oscillator",
+            "ref_subinst_path": "ring_oscillator_16ring_oscillator_13",
+            "ref_type": "Block Design",
+            "source_type": "all",
+            "active": "all"
+          }
+        }
+      },
+      "ring_oscillator_14": {
+        "parameters": {
+          "ACTIVE_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ACTIVE_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ENABLE_DFX": {
+            "value": "0"
+          },
+          "LIST_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LIST_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LOCK_PROPAGATE": {
+            "value": "0"
+          }
+        },
+        "ports": {
+          "OP1": {
+            "direction": "O",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "IP1": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          }
+        },
+        "post_compiled_compname": "ring_oscillator_inst_16",
+        "architecture": "zynq",
+        "variant_info": {
+          "ring_oscillator.bd": {
+            "scoped_diagram": "ring_oscillator_inst_16.bd",
+            "design_checksum": "0x6DC615D4",
+            "ref_name": "ring_oscillator",
+            "ref_subinst_path": "ring_oscillator_16ring_oscillator_14",
+            "ref_type": "Block Design",
+            "source_type": "all",
+            "active": "all"
+          }
+        }
+      },
+      "ring_oscillator_15": {
+        "parameters": {
+          "ACTIVE_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ACTIVE_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "ENABLE_DFX": {
+            "value": "0"
+          },
+          "LIST_SIM_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LIST_SYNTH_BD": {
+            "value": "ring_oscillator.bd"
+          },
+          "LOCK_PROPAGATE": {
+            "value": "0"
+          }
+        },
+        "ports": {
+          "OP1": {
+            "direction": "O",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "IP1": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          }
+        },
+        "post_compiled_compname": "ring_oscillator_inst_17",
+        "architecture": "zynq",
+        "variant_info": {
+          "ring_oscillator.bd": {
+            "scoped_diagram": "ring_oscillator_inst_17.bd",
+            "design_checksum": "0x6DC615D4",
+            "ref_name": "ring_oscillator",
+            "ref_subinst_path": "ring_oscillator_16ring_oscillator_15",
+            "ref_type": "Block Design",
+            "source_type": "all",
+            "active": "all"
+          }
+        }
+      }
+    },
+    "nets": {
+      "IP1_0_1": {
+        "ports": [
+          "IP1_0",
+          "ring_oscillator_15/IP1",
+          "ring_oscillator_11/IP1",
+          "ring_oscillator_12/IP1",
+          "ring_oscillator_13/IP1",
+          "ring_oscillator_14/IP1",
+          "ring_oscillator_0/IP1",
+          "ring_oscillator_1/IP1",
+          "ring_oscillator_2/IP1",
+          "ring_oscillator_3/IP1",
+          "ring_oscillator_4/IP1",
+          "ring_oscillator_5/IP1",
+          "ring_oscillator_6/IP1",
+          "ring_oscillator_7/IP1",
+          "ring_oscillator_8/IP1",
+          "ring_oscillator_9/IP1",
+          "ring_oscillator_10/IP1"
+        ]
+      },
+      "ring_oscillator_0_OP1": {
+        "ports": [
+          "ring_oscillator_0/OP1",
+          "OP1_0"
+        ]
+      },
+      "ring_oscillator_10_OP1": {
+        "ports": [
+          "ring_oscillator_10/OP1",
+          "OP1_10"
+        ]
+      },
+      "ring_oscillator_11_OP1": {
+        "ports": [
+          "ring_oscillator_11/OP1",
+          "OP1_11"
+        ]
+      },
+      "ring_oscillator_12_OP1": {
+        "ports": [
+          "ring_oscillator_12/OP1",
+          "OP1_12"
+        ]
+      },
+      "ring_oscillator_13_OP1": {
+        "ports": [
+          "ring_oscillator_13/OP1",
+          "OP1_13"
+        ]
+      },
+      "ring_oscillator_14_OP1": {
+        "ports": [
+          "ring_oscillator_14/OP1",
+          "OP1_14"
+        ]
+      },
+      "ring_oscillator_15_OP1": {
+        "ports": [
+          "ring_oscillator_15/OP1",
+          "OP1_15"
+        ]
+      },
+      "ring_oscillator_1_OP1": {
+        "ports": [
+          "ring_oscillator_1/OP1",
+          "OP1_1"
+        ]
+      },
+      "ring_oscillator_2_OP1": {
+        "ports": [
+          "ring_oscillator_2/OP1",
+          "OP1_2"
+        ]
+      },
+      "ring_oscillator_3_OP1": {
+        "ports": [
+          "ring_oscillator_3/OP1",
+          "OP1_3"
+        ]
+      },
+      "ring_oscillator_4_OP1": {
+        "ports": [
+          "ring_oscillator_4/OP1",
+          "OP1_4"
+        ]
+      },
+      "ring_oscillator_5_OP1": {
+        "ports": [
+          "ring_oscillator_5/OP1",
+          "OP1_5"
+        ]
+      },
+      "ring_oscillator_6_OP1": {
+        "ports": [
+          "ring_oscillator_6/OP1",
+          "OP1_6"
+        ]
+      },
+      "ring_oscillator_7_OP1": {
+        "ports": [
+          "ring_oscillator_7/OP1",
+          "OP1_7"
+        ]
+      },
+      "ring_oscillator_8_OP1": {
+        "ports": [
+          "ring_oscillator_8/OP1",
+          "OP1_8"
+        ]
+      },
+      "ring_oscillator_9_OP1": {
+        "ports": [
+          "ring_oscillator_9/OP1",
+          "OP1_9"
+        ]
+      }
+    }
+  }
+}

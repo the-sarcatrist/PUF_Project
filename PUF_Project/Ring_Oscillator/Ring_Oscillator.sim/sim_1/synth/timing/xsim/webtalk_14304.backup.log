@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sat Sep 23 12:26:54 2023
+# Process ID: 14304
+# Current directory: E:/Vivado/PUF_Project/Ring_Oscillator/Ring_Oscillator.sim/sim_1/synth/timing/xsim
+# Command line: wbtcv.exe -mode batch -source E:/Vivado/PUF_Project/Ring_Oscillator/Ring_Oscillator.sim/sim_1/synth/timing/xsim/xsim.dir/ring_oscillator_wrapper_time_synth/webtalk/xsim_webtalk.tcl -notrace
+# Log file: E:/Vivado/PUF_Project/Ring_Oscillator/Ring_Oscillator.sim/sim_1/synth/timing/xsim/webtalk.log
+# Journal file: E:/Vivado/PUF_Project/Ring_Oscillator/Ring_Oscillator.sim/sim_1/synth/timing/xsim\webtalk.jou
+#-----------------------------------------------------------
+source E:/Vivado/PUF_Project/Ring_Oscillator/Ring_Oscillator.sim/sim_1/synth/timing/xsim/xsim.dir/ring_oscillator_wrapper_time_synth/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Sep 23 12:26:54 2023...
